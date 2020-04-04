@@ -6,12 +6,15 @@ const contact = () => {
             <h1>
                 Contact
             </h1>
-            <p>
-                Linkedin
-                Instagram
-                reddit
-                github
-            </p>
+            <ul>
+            <li>
+                <a href="https://in.linkedin.com/in/srujan-sai" target="_blank">linkedin</a>
+            </li>
+            <li>
+                twitter
+            </li>
+            <li>reddit</li>
+            </ul> 
         </div>
     )
 
