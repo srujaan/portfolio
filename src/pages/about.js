@@ -1,9 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Footer from '../components/footer'
+import Header from '../components/header'
+
 
 const about = () => {
     return (
         <div>
+            <Header />
             <h1>
                 About Me
             </h1>
@@ -13,6 +17,7 @@ const about = () => {
             <Link to="/contact">
                 Contact me.
                 </Link>
+                <Footer />
         </div>
     )
 
